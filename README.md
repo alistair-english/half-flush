@@ -29,3 +29,4 @@ Checks to see if your public IP has changed
     ```bash
     docker compose up -d
     ```
+5. make sure you add your email to your "safe senders" list!
