@@ -1,0 +1,10 @@
+services:
+  main:
+    build: .
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - ./:/code/
+    env_file: .env
+    command: python3 /code/main.py
+networks: {}

@@ -1,3 +1,6 @@
+_prev_ip
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
